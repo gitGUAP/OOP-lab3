@@ -12,7 +12,7 @@ Vector::Vector(int st, int ed) {
 
 int& Vector::operator[] (int i) {
 	if (i < *start || i >= *end) {
-		std::cout << std::endl << "Wrong index of massive: " << i << std::endl;
+		std::cout << std::endl << "Wrong index of vector: " << i << std::endl;
 		system("pause");
 		exit(1);
 	}
