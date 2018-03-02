@@ -30,6 +30,8 @@ int main() {
 	Vector division = multipl / 2;
 	cout << "division: "; division.print();
 
+	cout << "vecl < vecr: "; cout << (vecl < vecr) << endl;
+
 
 	system("pause");
 	return 0;
