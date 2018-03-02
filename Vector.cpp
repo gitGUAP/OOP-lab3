@@ -33,7 +33,7 @@ Vector Vector::operator+(const Vector &rv) {
 	return out;
 }
 
-bool Vector::operator<(const Vector &rv) {
+bool Vector::operator<(const Vector  &rv) {
 	if (*len < *rv.len) {
 		return true;
 	}
